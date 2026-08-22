@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+
+# Webpack/build output
+dist/
+lib/
+lib-amd/
+*.tsbuildinfo
+
+# Local Office add-in HTTPS certificates
+*.pem
+*.key
+*.crt
+
+# Logs and temporary files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.tmp/
+tmp/
+
+# Environment files containing local settings or secrets
+.env
+.env.*
+!.env.example
+
+# VS Code local workspace state
+.vscode/*.code-workspace
+.vscode/launch.json
+.vscode/settings.json
+.vscode/tasks.json
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Office temporary and lock files
+~$*.pptx
+~$*.ppt
+~$*.xlsx
+~$*.xls
