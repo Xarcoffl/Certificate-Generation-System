@@ -8,9 +8,9 @@
   <Description DefaultValue="A template to get started."/>
   <IconUrl DefaultValue="https://localhost:3000/assets/icon-32.png"/>
   <HighResolutionIconUrl DefaultValue="https://localhost:3000/assets/icon-64.png"/>
-  <SupportUrl DefaultValue="https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPO_NAME/"/>
+  <SupportUrl DefaultValue="https://Xarcoffl.github.io/Certificate-Generation-System/"/>
   <AppDomains>
-    <AppDomain>https://YOUR_GITHUB_USERNAME.github.io</AppDomain>
+    <AppDomain>https://Xarcoffl.github.io</AppDomain>
   </AppDomains>
   <Hosts>
     <Host Name="Presentation"/>
