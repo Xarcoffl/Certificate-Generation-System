@@ -5,7 +5,7 @@ const CopyWebpackPlugin = require("copy-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 const urlDev = "https://localhost:3000/";
-const urlProd = "https://xarcoffl.github.io/Certificate-Generation-System/"; // TODO: replace with your actual GitHub Pages URL (must end with /)
+const urlProd = urlDev;
 
 async function getHttpsOptions() {
   const httpsOptions = await devCerts.getHttpsServerOptions();
